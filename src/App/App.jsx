@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const URL = 'https://catfact.ninja/fact'
+const CAT_ENDPOINT_URL = ' https://cataas.com/cat/says/hello'
 export const App = () => {
   const [fact, setFact] = useState('lorem ipsum')
   const getData = async () => {
